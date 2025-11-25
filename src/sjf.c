@@ -1,5 +1,6 @@
 #include <stdio.h>
 //Edited by Paull
+//Edited to make error
 int main() {
     int n;
     scanf("%d", &n);
@@ -7,8 +8,7 @@ int main() {
     int bt[n], wt[n], tat[n], p[n];
 
     for (int i = 0; i < n; i++) {
-        scanf("%d", &bt[i]);
-        p[i] = i + 1;
+        
     }
 
     // SJF Sorting
